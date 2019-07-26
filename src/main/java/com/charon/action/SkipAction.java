@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/persons") // 命名空间
+@RequestMapping("/api") // 命名空间
 public class SkipAction {
     @Autowired
     private Biz biz;
